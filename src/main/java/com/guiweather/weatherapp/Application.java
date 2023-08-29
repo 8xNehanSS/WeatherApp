@@ -18,6 +18,7 @@ public class Application extends javafx.application.Application {
         stage.setTitle("Weather Forecast");
         stage.getIcons().add(icon);
         stage.setScene(scene);
+        stage.setResizable(false);
         stage.show();
         Controller2 controller = fxmlLoader.getController();
         controller.setPrimaryStage(stage);
@@ -53,6 +54,7 @@ public class Application extends javafx.application.Application {
         Scene scene = new Scene(fxmlLoader.load(), 600, 600);
         stage.setTitle("Weather Forecast");
         stage.setScene(scene);
+        stage.setResizable(false);
         stage.show();
         Controller2 controller = fxmlLoader.getController();
         controller.setPrimaryStage(stage);
@@ -64,6 +66,7 @@ public class Application extends javafx.application.Application {
         Scene scene = new Scene(fxmlLoader.load(), 600, 600);
         stage.setTitle("Weather Forecast");
         stage.setScene(scene);
+        stage.setResizable(false);
         stage.show();
         Controller1 controller = fxmlLoader.getController();
         controller.setPrimaryStage(stage);

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #7393B3;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.guiweather.weatherapp.Controller1">
+   <children>
+      <Label layoutX="212.0" layoutY="27.0" text="Weather Forecast">
+         <font>
+            <Font name="Maiandra GD" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="text1" layoutX="92.0" layoutY="237.0" prefHeight="27.0" prefWidth="426.0" promptText="Enter City Name" />
+      <Button layoutX="252.0" layoutY="300.0" mnemonicParsing="false" onAction="#onSearchButtonClick" prefHeight="27.0" prefWidth="111.0" text="Search" />
+      <Label layoutX="112.0" layoutY="91.0" text="This application is made using Java, JavaFX and some dependencies." />
+      <Label layoutX="134.0" layoutY="117.0" text="It uses a Free Weather API to get the Weather Information" />
+      <Label layoutX="191.0" layoutY="143.0" text="Source Code is available in my GitHub" />
+      <Label layoutX="232.0" layoutY="357.0" text="Recent Locations">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="150.0" layoutY="416.0" mnemonicParsing="false" onAction="#loc1" prefHeight="27.0" prefWidth="83.0" text="Tokyo" />
+      <Button layoutX="150.0" layoutY="460.0" mnemonicParsing="false" onAction="#loc4" prefHeight="27.0" prefWidth="83.0" text="Narita" />
+      <Button layoutX="266.0" layoutY="460.0" mnemonicParsing="false" onAction="#loc5" prefHeight="27.0" prefWidth="83.0" text="London" />
+      <Button layoutX="374.0" layoutY="460.0" mnemonicParsing="false" onAction="#loc6" prefHeight="27.0" prefWidth="83.0" text="Chennai" />
+      <Button layoutX="374.0" layoutY="416.0" mnemonicParsing="false" onAction="#loc3" prefHeight="27.0" prefWidth="83.0" text="Gampaha" />
+      <Button layoutX="266.0" layoutY="416.0" mnemonicParsing="false" onAction="#loc2" prefHeight="27.0" prefWidth="83.0" text="Colombo" />
+      <Button layoutX="266.0" layoutY="503.0" mnemonicParsing="false" onAction="#loc8" prefHeight="27.0" prefWidth="83.0" text="Kandy" />
+      <Button layoutX="374.0" layoutY="503.0" mnemonicParsing="false" onAction="#loc9" prefHeight="27.0" prefWidth="83.0" text="Jaffna" />
+      <Button layoutX="150.0" layoutY="503.0" mnemonicParsing="false" onAction="#loc7" text="Veyangoda" />
+      <Label fx:id="git" layoutX="469.0" layoutY="576.0" text="Github: @8xNehanSS" />
+      <Label layoutX="218.0" layoutY="176.0" text="https://github.com/8xNehanSS" underline="true" />
+   </children>
+</AnchorPane>

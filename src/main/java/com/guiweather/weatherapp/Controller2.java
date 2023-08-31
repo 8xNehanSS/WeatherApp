@@ -7,7 +7,9 @@ import javafx.stage.Stage;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
+import java.io.File;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class Controller2 {
     @FXML
@@ -62,8 +64,12 @@ public class Controller2 {
 
     @FXML
     protected void loc1() throws IOException {
-        Controller1.text = "tokyo";
-        WeatherDATA value = Main.CheckWeather("tokyo");
+        File file = new File("recentlocation.txt");
+        Scanner file_reader = new Scanner(file);
+        String line1 = file_reader.nextLine();
+        Controller1.text = line1;
+        file_reader.close();
+        WeatherDATA value = Main.CheckWeather(line1);
         if(value==null) {
             Application.errorpop1(primaryStage);
         } else {

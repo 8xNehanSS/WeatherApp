@@ -4,11 +4,13 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
+import java.io.FileWriter;
 import java.io.IOException;
 
 public class Controller1 {
     @FXML
     private TextField text1;
+
 
     private Stage primaryStage; // Reference to the primary stage
 
@@ -28,6 +30,9 @@ public class Controller1 {
             if(value==null) {
                 Application.errorpop1(primaryStage);
             } else {
+                FileWriter myWriter = new FileWriter("recentlocation.txt");
+                myWriter.write(text);
+                myWriter.close();
                 Application.showdata(primaryStage, value);
             }
         }
@@ -40,6 +45,9 @@ public class Controller1 {
         if(value==null) {
             Application.errorpop1(primaryStage);
         } else {
+            FileWriter myWriter = new FileWriter("recentlocation.txt");
+            myWriter.write(text);
+            myWriter.close();
             Application.showdata(primaryStage, value);
         }
     }
@@ -51,6 +59,9 @@ public class Controller1 {
         if(value==null) {
             Application.errorpop1(primaryStage);
         } else {
+            FileWriter myWriter = new FileWriter("recentlocation.txt");
+            myWriter.write(text);
+            myWriter.close();
             Application.showdata(primaryStage, value);
         }
     }
@@ -62,6 +73,9 @@ public class Controller1 {
         if(value==null) {
             Application.errorpop1(primaryStage);
         } else {
+            FileWriter myWriter = new FileWriter("recentlocation.txt");
+            myWriter.write(text);
+            myWriter.close();
             Application.showdata(primaryStage, value);
         }
     }
@@ -73,6 +87,9 @@ public class Controller1 {
         if(value==null) {
             Application.errorpop1(primaryStage);
         } else {
+            FileWriter myWriter = new FileWriter("recentlocation.txt");
+            myWriter.write(text);
+            myWriter.close();
             Application.showdata(primaryStage, value);
         }
     }
@@ -84,6 +101,9 @@ public class Controller1 {
         if(value==null) {
             Application.errorpop1(primaryStage);
         } else {
+            FileWriter myWriter = new FileWriter("recentlocation.txt");
+            myWriter.write(text);
+            myWriter.close();
             Application.showdata(primaryStage, value);
         }
     }
@@ -95,6 +115,9 @@ public class Controller1 {
         if(value==null) {
             Application.errorpop1(primaryStage);
         } else {
+            FileWriter myWriter = new FileWriter("recentlocation.txt");
+            myWriter.write(text);
+            myWriter.close();
             Application.showdata(primaryStage, value);
         }
     }
@@ -106,6 +129,9 @@ public class Controller1 {
         if(value==null) {
             Application.errorpop1(primaryStage);
         } else {
+            FileWriter myWriter = new FileWriter("recentlocation.txt");
+            myWriter.write(text);
+            myWriter.close();
             Application.showdata(primaryStage, value);
         }
     }
@@ -117,6 +143,9 @@ public class Controller1 {
         if(value==null) {
             Application.errorpop1(primaryStage);
         } else {
+            FileWriter myWriter = new FileWriter("recentlocation.txt");
+            myWriter.write(text);
+            myWriter.close();
             Application.showdata(primaryStage, value);
         }
     }
@@ -128,6 +157,9 @@ public class Controller1 {
         if(value==null) {
             Application.errorpop1(primaryStage);
         } else {
+            FileWriter myWriter = new FileWriter("recentlocation.txt");
+            myWriter.write(text);
+            myWriter.close();
             Application.showdata(primaryStage, value);
         }
     }

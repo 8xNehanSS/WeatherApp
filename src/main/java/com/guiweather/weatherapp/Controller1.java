@@ -30,7 +30,14 @@ public class Controller1 {
             if(value==null) {
                 Application.errorpop1(primaryStage);
             } else {
-                FileWriter myWriter = new FileWriter("recentlocation.txt");
+                String userHome = System.getProperty("user.home");
+
+                // Create the path to the "Documents" folder
+                String documentsFolderPath = userHome + "/Documents/WeatherApp/";
+
+                // Create the file path within the "Documents" folder
+                String filePath = documentsFolderPath + "recentlocation.txt";
+                FileWriter myWriter = new FileWriter(filePath);
                 myWriter.write(text);
                 myWriter.close();
                 Application.showdata(primaryStage, value);
@@ -45,7 +52,14 @@ public class Controller1 {
         if(value==null) {
             Application.errorpop1(primaryStage);
         } else {
-            FileWriter myWriter = new FileWriter("recentlocation.txt");
+            String userHome = System.getProperty("user.home");
+
+            // Create the path to the "Documents" folder
+            String documentsFolderPath = userHome + "/Documents/WeatherApp/";
+
+            // Create the file path within the "Documents" folder
+            String filePath = documentsFolderPath + "recentlocation.txt";
+            FileWriter myWriter = new FileWriter(filePath);
             myWriter.write(text);
             myWriter.close();
             Application.showdata(primaryStage, value);
@@ -59,7 +73,14 @@ public class Controller1 {
         if(value==null) {
             Application.errorpop1(primaryStage);
         } else {
-            FileWriter myWriter = new FileWriter("recentlocation.txt");
+            String userHome = System.getProperty("user.home");
+
+            // Create the path to the "Documents" folder
+            String documentsFolderPath = userHome + "/Documents/WeatherApp/";
+
+            // Create the file path within the "Documents" folder
+            String filePath = documentsFolderPath + "recentlocation.txt";
+            FileWriter myWriter = new FileWriter(filePath);
             myWriter.write(text);
             myWriter.close();
             Application.showdata(primaryStage, value);
@@ -73,7 +94,14 @@ public class Controller1 {
         if(value==null) {
             Application.errorpop1(primaryStage);
         } else {
-            FileWriter myWriter = new FileWriter("recentlocation.txt");
+            String userHome = System.getProperty("user.home");
+
+            // Create the path to the "Documents" folder
+            String documentsFolderPath = userHome + "/Documents/WeatherApp/";
+
+            // Create the file path within the "Documents" folder
+            String filePath = documentsFolderPath + "recentlocation.txt";
+            FileWriter myWriter = new FileWriter(filePath);
             myWriter.write(text);
             myWriter.close();
             Application.showdata(primaryStage, value);
@@ -87,7 +115,14 @@ public class Controller1 {
         if(value==null) {
             Application.errorpop1(primaryStage);
         } else {
-            FileWriter myWriter = new FileWriter("recentlocation.txt");
+            String userHome = System.getProperty("user.home");
+
+            // Create the path to the "Documents" folder
+            String documentsFolderPath = userHome + "/Documents/WeatherApp/";
+
+            // Create the file path within the "Documents" folder
+            String filePath = documentsFolderPath + "recentlocation.txt";
+            FileWriter myWriter = new FileWriter(filePath);
             myWriter.write(text);
             myWriter.close();
             Application.showdata(primaryStage, value);
@@ -101,7 +136,14 @@ public class Controller1 {
         if(value==null) {
             Application.errorpop1(primaryStage);
         } else {
-            FileWriter myWriter = new FileWriter("recentlocation.txt");
+            String userHome = System.getProperty("user.home");
+
+            // Create the path to the "Documents" folder
+            String documentsFolderPath = userHome + "/Documents/WeatherApp/";
+
+            // Create the file path within the "Documents" folder
+            String filePath = documentsFolderPath + "recentlocation.txt";
+            FileWriter myWriter = new FileWriter(filePath);
             myWriter.write(text);
             myWriter.close();
             Application.showdata(primaryStage, value);
@@ -115,7 +157,14 @@ public class Controller1 {
         if(value==null) {
             Application.errorpop1(primaryStage);
         } else {
-            FileWriter myWriter = new FileWriter("recentlocation.txt");
+            String userHome = System.getProperty("user.home");
+
+            // Create the path to the "Documents" folder
+            String documentsFolderPath = userHome + "/Documents/WeatherApp/";
+
+            // Create the file path within the "Documents" folder
+            String filePath = documentsFolderPath + "recentlocation.txt";
+            FileWriter myWriter = new FileWriter(filePath);
             myWriter.write(text);
             myWriter.close();
             Application.showdata(primaryStage, value);
@@ -129,7 +178,14 @@ public class Controller1 {
         if(value==null) {
             Application.errorpop1(primaryStage);
         } else {
-            FileWriter myWriter = new FileWriter("recentlocation.txt");
+            String userHome = System.getProperty("user.home");
+
+            // Create the path to the "Documents" folder
+            String documentsFolderPath = userHome + "/Documents/WeatherApp/";
+
+            // Create the file path within the "Documents" folder
+            String filePath = documentsFolderPath + "recentlocation.txt";
+            FileWriter myWriter = new FileWriter(filePath);
             myWriter.write(text);
             myWriter.close();
             Application.showdata(primaryStage, value);
@@ -143,7 +199,14 @@ public class Controller1 {
         if(value==null) {
             Application.errorpop1(primaryStage);
         } else {
-            FileWriter myWriter = new FileWriter("recentlocation.txt");
+            String userHome = System.getProperty("user.home");
+
+            // Create the path to the "Documents" folder
+            String documentsFolderPath = userHome + "/Documents/WeatherApp/";
+
+            // Create the file path within the "Documents" folder
+            String filePath = documentsFolderPath + "recentlocation.txt";
+            FileWriter myWriter = new FileWriter(filePath);
             myWriter.write(text);
             myWriter.close();
             Application.showdata(primaryStage, value);
@@ -157,7 +220,14 @@ public class Controller1 {
         if(value==null) {
             Application.errorpop1(primaryStage);
         } else {
-            FileWriter myWriter = new FileWriter("recentlocation.txt");
+            String userHome = System.getProperty("user.home");
+
+            // Create the path to the "Documents" folder
+            String documentsFolderPath = userHome + "/Documents/WeatherApp/";
+
+            // Create the file path within the "Documents" folder
+            String filePath = documentsFolderPath + "recentlocation.txt";
+            FileWriter myWriter = new FileWriter(filePath);
             myWriter.write(text);
             myWriter.close();
             Application.showdata(primaryStage, value);

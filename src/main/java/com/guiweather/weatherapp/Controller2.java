@@ -8,6 +8,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -64,7 +65,29 @@ public class Controller2 {
 
     @FXML
     protected void loc1() throws IOException {
-        File file = new File("recentlocation.txt");
+        String userHome = System.getProperty("user.home");
+
+        // Create the path to the "Documents" folder
+        String documentsFolderPath = userHome + "\\Documents\\WeatherApp\\";
+        File newFolder = new File(documentsFolderPath);
+        if (newFolder.mkdirs()) {
+            System.out.println("New folder created: " + newFolder.getAbsolutePath());
+        } else {
+            System.out.println("Failed to create the new folder.");
+        }
+
+        // Create the file path within the "Documents" folder
+        String filePath = documentsFolderPath + "recentlocation.txt";
+        System.out.println(filePath);
+
+        File file = new File(filePath);
+        if (!file.exists()) {
+            file.createNewFile();
+            System.out.println("File created: " + file.getName());
+            FileWriter myWriter = new FileWriter(filePath);
+            myWriter.write("Colombo");
+            myWriter.close();
+        }
         Scanner file_reader = new Scanner(file);
         String line1 = file_reader.nextLine();
         Controller1.text = line1;
